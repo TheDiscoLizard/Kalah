@@ -12,8 +12,8 @@ public class Main {
     private static boolean bonusTurn = false;   // This will be used to track whether the player gets a bonus turn.
     // First part of array is P2 side, second part is P1 side. P2 is reversed when printed (index 6 is the store in each).
     private static int[][] board = new int[][]{
-            {4, 4, 4, 4, 4, 4, 0},              // P2 board (will be printed 'backwards', but accessed (i.e. board[0][6] = 0))
-            {4, 4, 4, 4, 1, 0, 0}               // P1 board (i.e. board[1][5] = 4)
+            {6, 6, 6, 6, 6, 6, 0},              // P2 board (will be printed 'backwards', but accessed (i.e. board[0][6] = 0))
+            {6, 6, 6, 6, 6, 6, 0}               // P1 board (i.e. board[1][5] = 4)
     };
 
     public static void main(String[] args) {
