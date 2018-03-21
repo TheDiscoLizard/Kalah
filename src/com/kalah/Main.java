@@ -177,7 +177,7 @@ public class Main {
         } while (seedsToSow > 0);
         // Check if last seed landed in Kalah, earning a bonus turn.
         if (onPlayerSide && cursor % 7 == 6) {
-            System.out.println("\tP" + activePlayer + " scored a bonus turn.");
+            System.out.println("\t\t\t\t\t\t\t\t\tP" + activePlayer + " scored a bonus turn.");
             bonusTurn = true;
             // We can return out of this method now, since a bonus turn needs to be played.
         } else if (onPlayerSide && cursor % 7 < 6) {
@@ -187,7 +187,7 @@ public class Main {
             if (board[playerBoard][playerPit] == 1 && board[oppositeBoard][oppositePit] > 0) { // If last seed was added to an empty pit on home turf, with at least one seed in opposite pit
                 // Add the seeds to kalah
                 board[playerBoard][6] = board[playerBoard][6] + board[oppositeBoard][oppositePit] + board[playerBoard][playerPit];
-                System.out.println("\tP" + activePlayer + " captured " + board[oppositeBoard][oppositePit] + " of P" + inactivePlayer + "'s seed(s) for " + (board[oppositeBoard][oppositePit] + board[playerBoard][playerPit]) + " points!");
+                System.out.println("\t\t\t\t\t\t\t\t\tP" + activePlayer + " captured " + board[oppositeBoard][oppositePit] + " of P" + inactivePlayer + "'s seed(s) for " + (board[oppositeBoard][oppositePit] + board[playerBoard][playerPit]) + " points!");
                 // Remove the seeds from pits
                 board[oppositeBoard][oppositePit] = 0;
                 board[playerBoard][playerPit] = 0;
