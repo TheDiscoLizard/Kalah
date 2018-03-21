@@ -1,0 +1,28 @@
+// BEGIN TEST CASES //
+    //
+    /*  This is a test board setup for checking board printing
+    private static int[][] board = new int[][]{
+            {3, 2, 1, 2, 2, 2, 0}, //P2 board (will be printed 'backwards')
+            {1, 2, 3, 1, 1, 1, 0}  //P1 board
+    };
+    */
+    /*This is a test board setup for a quick P1 win state
+    private static int[][] board = new int[][]{
+            {1, 1, 1, 1, 1, 1, 0}, //P2 board (will be printed 'backwards')
+            {0, 0, 0, 0, 2, 0, 50}  //P1 board
+    };
+    */
+    /*
+    //This is a test board setup for a quick P2 win state
+    private static int[][] board = new int[][]{
+            {1, 1, 1, 1, 1, 1, 50}, //P2 board (will be printed 'backwards')
+            {0, 0, 0, 0, 2, 0, 0}  //P1 board
+    };
+    */
+    /*  This is a test board setup that matches the wikipedia example play
+    private static int[][] board = new int[][]{
+            {5, 3, 2, 1, 2, 0, 0}, //P2 board (will be printed 'backwards')
+            {4, 3, 0, 1, 2, 2, 0}  //P1 board
+    };
+    */
+    // END TEST CASES //
