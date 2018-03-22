@@ -13,7 +13,7 @@ public class Main {
     // First part of array is P2 side, second part is P1 side. P2 is reversed when printed (index 6 is the store in each).
     private static int[][] board = new int[][]{
             {6, 6, 6, 6, 6, 6, 0},              // P2 board (will be printed 'backwards', but accessed (i.e. board[0][6] = 0))
-            {6, 6, 6, 6, 6, 6, 0}               // P1 board (i.e. board[1][5] = 4)
+            {6, 6, 6, 6, 6, 6, 0}               // P1 board (i.e. board[1][5] = 6)
     };
 
     public static void main(String[] args) {
